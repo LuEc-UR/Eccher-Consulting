@@ -13,6 +13,26 @@
 
     a { text-decoration: none; color: inherit; }
 
+    /* HEADER */
+    header {
+      position: fixed;
+      width: 100%;
+      background: #0d47a1;
+      color: white;
+      padding: 15px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+    header nav a {
+      margin-left: 25px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    header nav a:hover {
+      color: #ffca28;
+    }
 
     /* HERO */
     .hero {
@@ -129,46 +149,70 @@
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header>
-    <div class="logo"><strong>Robotemps</strong></div>
-    <nav>
-      <a href="#about">Chi Siamo</a>
-      <a href="#features">Servizi</a>
-      <a href="#contact">Contatti</a>
-    </nav>
-  </header>
-
   <!-- HERO -->
-  <section class="hero">
-    <div>
-      <h1>Robotemps</h1>
-      <p>Soluzioni robotiche avanzate come servizio per OEM e industrie.</p>
-      <a href="#contact" class="button">Contattaci</a>
-    </div>
+  <section id="hero" style="padding:100px 0; text-align:center;">
+    <h1>Robotics & Automation Advisory</h1>
+    <p>Supporting OEMs & System Integrators in Market Strategy, Adoption and Growth</p>
+    <p><strong>Luca Eccher • Robotics & Automation Advisor</strong></p>
+    <a href="#services" style="padding:10px 20px; background:#0066cc; color:#fff; text-decoration:none; border-radius:4px;">Discover Services</a>
   </section>
 
   <!-- ABOUT -->
   <section id="about">
-    <h2>Chi Siamo</h2>
-    <p>Robotemps fornisce soluzioni robotiche temporanee e scalabili, aiutando le aziende a integrare robotica avanzata senza complessità. Ottimizza tempi, costi e risorse con il nostro modello RaaS.</p>
+    <h2>Who we are</h2>
+    <p>Robotemps provides temporary and scalable robotic solutions, helping companies integrate advanced robotics without complexity. Optimize time, costs and resources with our RaaS model.</p>
   </section>
 
   <!-- FEATURES -->
-  <section id="features">
-    <h2>Servizi</h2>
-    <div class="features">
-      <div class="feature-card">
-        <h3>Noleggio Robot</h3>
-        <p>Accedi a robot avanzati quando serve, senza investimenti iniziali pesanti.</p>
-      </div>
-      <div class="feature-card">
-        <h3>Integrazione Rapida</h3>
-        <p>Semplifichiamo l’integrazione robotica nei tuoi processi industriali esistenti.</p>
-      </div>
-      <div class="feature-card">
-        <h3>Supporto 24/7</h3>
-        <p>Il nostro team ti supporta in ogni fase, dalla configurazione al monitoraggio.</p>
+  <section id="services" style="padding:80px 20px; background:#ffffff;">
+    <div style="max-width:1000px; margin:0 auto;">
+      <h2>What I Do</h2>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:30px;">
+
+        <div style="border:1px solid #e5e5e5; border-radius:12px; padding:30px;">
+          <h3>🤖 Robotics & Automation Adoption</h3>
+            <p>
+              Support in assessing where robotics and automation make sense,
+              identifying viable use cases and defining realistic adoption paths
+              aligned with operational and business constraints.
+            </p>
+        </div>
+
+        <div style="border:1px solid #e5e5e5; border-radius:12px; padding:30px;">
+          <h3>⚙️ Process & Productivity Improvement</h3>
+            <p>
+              Evaluation of production processes to identify bottlenecks,
+              inefficiencies and opportunities where automation and robotics
+              can deliver measurable improvements.
+            </p>
+        </div>
+
+        <div style="border:1px solid #e5e5e5; border-radius:12px; padding:30px;">
+          <h3>🏗️ Product & Solution Enablement</h3>
+            <p>
+              Support in structuring and positioning robotics-enabled solutions,
+              from application definition to portfolio evolution and market readiness.
+            </p>
+        </div>
+
+        <div style="border:1px solid #e5e5e5; border-radius:12px; padding:30px;">
+          <h3>📈 Go-To-Market Strategy</h3>
+            <p>
+              Definition of go-to-market approaches for new technologies,
+              aligning technical capabilities with customer value,
+              partners and commercial execution.
+            </p>
+        </div>
+
+        <div style="border:1px solid #e5e5e5; border-radius:12px; padding:30px;">
+          <h3>🧠 AI & Physical AI Evaluation</h3>
+            <p>
+              Exploration of AI and Physical AI concepts applied to robotics
+              and automation, focusing on readiness, integration effort
+              and industrial scalability.
+            </p>
+        </div>
       </div>
     </div>
   </section>
