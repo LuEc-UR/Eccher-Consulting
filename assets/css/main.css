@@ -3057,7 +3057,7 @@ input, select, textarea {
 		}
 
 		.spotlight:before {
-			background-image: url("images/overlay.png");
+			background-image: /*url("images/overlay.png")*/ none;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3957,8 +3957,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				display: none;
-				/* display: block;
+				display: block;
 				height: 100%;
 				left: 0;
 				overflow-y: auto;
@@ -3972,7 +3971,7 @@ input, select, textarea {
 
 				#navPanel .link {
 					border: 0;
-				*/	border-top: solid 1px rgba(255, 255, 255, 0.05);
+					border-top: solid 1px rgba(255, 255, 255, 0.05);
 					color: rgba(255, 255, 255, 0.75);
 					display: block;
 					height: 3em;
