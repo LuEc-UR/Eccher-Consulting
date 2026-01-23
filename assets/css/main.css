@@ -3057,8 +3057,8 @@ input, select, textarea {
 		}
 
 		.spotlight:before {
-			background-image: /*url("images/overlay.png")*/ none;
-			content: '';
+			background-image: none; /*url("images/overlay.png")
+			content: '';*/
 			display: block;
 			height: 100%;
 			left: 0;
