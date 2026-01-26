@@ -831,6 +831,26 @@
 	}
 */
 
+.worked-with {
+	list-style: none;
+	padding: 0;
+	margin: 0.5em 0 0 0;
+
+	li {
+		padding: 0.3em 0;
+	}
+
+	a {
+		color: _palette(fg);
+		border-bottom: none;
+
+		&:hover {
+			color: _palette(accent1);
+			border-bottom: dotted 1px _palette(accent1);
+		}
+	}
+}
+
 /* List */
 
 	ol {
