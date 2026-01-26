@@ -797,6 +797,30 @@
 		}
 	}
 
+/* Logos */
+	.worked-with {
+		margin-top: 40px;
+		text-align: center;
+	}
+
+	.worked-with .logos {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 30px;
+		margin-top: 15px;
+	}
+
+	.worked-with .logos img {
+		max-height: 50px; /* uniforme */
+		object-fit: contain;
+		transition: transform 0.3s;
+	}
+
+	.worked-with .logos img:hover {
+		transform: scale(1.1);
+	}
+
 /* List */
 
 	ol {
@@ -2164,25 +2188,4 @@
 
 	}
 
-	.worked-with {
-		margin-top: 40px;
-		text-align: center;
-	}
-
-	.worked-with .logos {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 30px;
-		margin-top: 15px;
-	}
-
-	.worked-with .logos img {
-		max-height: 50px; /* uniforme */
-		object-fit: contain;
-		transition: transform 0.3s;
-	}
-
-	.worked-with .logos img:hover {
-		transform: scale(1.1);
-	}
+	
