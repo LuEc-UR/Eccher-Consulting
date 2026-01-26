@@ -799,26 +799,32 @@
 
 /* Logos */
 	.worked-with {
-		margin-top: 15px;
+		margin-top: 10px;
 		text-align: center;
+
+		p {
+			margin: 0 0 8px 0;
+			font-size: 0.9em;
+			color: _palette(fg);
+		}
 	}
 
 	.worked-with .logos {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 15px;
-		margin-top: 8px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+		gap: 12px;
+		max-width: 220px;
+		margin: 0 auto;
 	}
 
 	.worked-with .logos img {
-		max-height: 5px; /* uniforme */
+		height: 30px;
 		object-fit: contain;
-		transition: transform 0.3s;
+		transition: transform 0.3s ease;
 	}
 
 	.worked-with .logos img:hover {
-		transform: scale(1.1);
+		transform: scale(1.15);
 	}
 
 /* List */
