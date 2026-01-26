@@ -798,7 +798,6 @@
 	}
 
 /* Logos */
-/*
 	.worked-with {
 		margin-top: 10px;
 		text-align: center;
@@ -819,37 +818,15 @@
 	}
 
 	.worked-with .logos img {
-		width: 35px;
-		height: 35px;
+		width: 15px;
+		height: 15px;
 		object-fit: contain;
-		object-position: center;
 		transition: transform 0.3s ease;
 	}
 
 	.worked-with .logos img:hover {
 		transform: scale(1.15);
 	}
-*/
-
-.worked-with {
-	list-style: none;
-	padding: 0;
-	margin: 0.5em 0 0 0;
-
-	li {
-		padding: 0.3em 0;
-	}
-
-	a {
-		color: _palette(fg);
-		border-bottom: none;
-
-		&:hover {
-			color: _palette(accent1);
-			border-bottom: dotted 1px _palette(accent1);
-		}
-	}
-}
 
 /* List */
 
