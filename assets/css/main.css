@@ -4112,8 +4112,7 @@ input, select, textarea {
 
 /* Custom styles for logos */
 .logos {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 5px;
-	justify-items: left;
+	display: flex;
+	gap: 20px;
+	align-items: center;
 }
