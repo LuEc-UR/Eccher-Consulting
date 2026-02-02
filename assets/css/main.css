@@ -4109,3 +4109,11 @@ input, select, textarea {
 					}
 
 	}
+
+/* Custom styles for logos */
+.logos {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	justify-items: center;
+}
